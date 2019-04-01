@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HLTestSubKit_Example' do
+  pod 'HLTestSubKit', :path => '../'
+
+  target 'HLTestSubKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
