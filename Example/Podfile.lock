@@ -1,0 +1,16 @@
+PODS:
+  - HLTestSubKit (0.1.0)
+
+DEPENDENCIES:
+  - HLTestSubKit (from `../`)
+
+EXTERNAL SOURCES:
+  HLTestSubKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLTestSubKit: ce789d3f09f21c9287565e402bbe90ca5a6a5bab
+
+PODFILE CHECKSUM: baabac2989261987192394ca6ad0e0bb9e2e5db5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module HLTestSubKit {
+  umbrella header "HLTestSubKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
