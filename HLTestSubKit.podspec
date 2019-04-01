@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLTestSubKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of HLTestSubKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hoolink/HLTestSubKit'
+  s.homepage         = 'https://github.com/slb2709673/HLTestSubKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hoolink' => 'slb2709673@126.com' }
-  s.source           = { :git => 'https://github.com/hoolink/HLTestSubKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/slb2709673/HLTestSubKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HLTestSubKit/Classes/**/*'
   
